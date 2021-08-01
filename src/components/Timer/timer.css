@@ -1,0 +1,15 @@
+button {
+    border-radius: .25rem;
+    cursor: pointer;
+    display: block;
+    padding: .3rem .5rem;
+}
+
+button:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.timer__wrapper--buttons {
+    display: flex;
+    margin: 1rem 0;
+}
